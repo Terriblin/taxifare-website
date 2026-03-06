@@ -82,7 +82,7 @@ if st.button("Predict Fare"):
 
     except Exception as e:
         # 3. Si Nominatim nos bloquea, mostramos este mensaje en lugar de romper la app
-        st.error("El servicio de mapas está temporalmente saturado o no disponible. Por favor, intenta de nuevo en unos segundos.")
+        st.error("Service currently unavalaible. Try again in a few minutes!")
 
 
 #    mapa = pd.DataFrame({
