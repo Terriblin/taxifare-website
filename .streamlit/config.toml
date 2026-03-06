@@ -1,0 +1,5 @@
+[theme]
+base="light"
+primaryColor="#6A5ACD" # Equivale a SlateBlue
+backgroundColor="#F5FFFA" # Equivale a MintCream
+secondaryBackgroundColor="#F0F8FF" # Equivale a AliceBlue (Este será el fondo de tu Sidebar)
