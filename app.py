@@ -69,7 +69,7 @@ if st.button("Predict Fare"):
 
     st.write("## *Here is your ride!!*")
 
-    google_maps_url = f"https://maps.google.com/maps?saddr={pickup_latitude},{pickup_longitude}&daddr={dropoff_latitude},{dropoff_longitude}dirflg=d&output=embed"
+    google_maps_url = f"https://maps.google.com/maps?saddr={pickup_latitude},{pickup_longitude}&daddr={dropoff_latitude},{dropoff_longitude}&dirflg=d&output=embed"
 
     components.html(
     f'<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{google_maps_url}"></iframe>',
