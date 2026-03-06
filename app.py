@@ -37,7 +37,7 @@ if st.button("Predict Fare"):
     #st.markdown("2. Calling the API...")
 
     pickup_datetime = f"{d} {t}"
-    geolocator = Nominatim(user_agent="taxifare")
+    geolocator = Nominatim(user_agent="taxifare_daniel_lewagon_app")
     location_pickup = geolocator.geocode(address_pickup)
     location_dropoff = geolocator.geocode(address_dropoff)
     pickup_longitude = location_pickup.longitude
